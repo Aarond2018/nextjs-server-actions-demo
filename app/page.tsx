@@ -9,7 +9,7 @@ interface Contact {
 
 export default async function Home() {
   const response = await fetch(
-    "https://6512cf67b8c6ce52b39646cf.mockapi.io/contacts",
+    "https://65178c77582f58d62d34fe8c.mockapi.io/contacts",
     {
       cache: "no-cache",
       next: {
