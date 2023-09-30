@@ -8,7 +8,7 @@ export const addContact = async (e: FormData) => {
 
   /* validate form inputs */
 
-  await fetch("https://6512cf67b8c6ce52b39646cf.mockapi.io/contacts", {
+  await fetch("https://65178c77582f58d62d34fe8c.mockapi.io/contacts", {
     method: "POST",
     body: JSON.stringify({ name, email }),
     headers: {
